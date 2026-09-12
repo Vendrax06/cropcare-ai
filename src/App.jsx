@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import RiskForecast from "./Pages/RiskForecast";
+import RiskForecast from "./pages/RiskForecast";
 
 function App() {
   const [page, setPage] = useState("dashboard");
